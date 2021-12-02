@@ -1,0 +1,119 @@
+nav
+
+{
+	background-color: yellow;
+	position: absolute;
+	left: 35%;
+	top: 17%;
+	padding: 2%;
+	width: 23%;
+	display: flex;
+	flex-wrap: wrap;
+
+
+
+}
+header
+{
+	background-color: black;
+	width: 111.4%;
+    margin-left: -12%;
+	position: absolute;
+	opacity:0.8;
+
+
+
+}
+h2
+{
+	color:white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 32px;
+	animation-name: text;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	margin-left: 10%;
+	filter: blur(1px);
+}
+
+@keyframes text 
+{
+	0%
+	{
+         color:white;
+	}
+
+	50%
+	{
+         color:red;
+	}
+
+	100%
+	{
+         color:green;
+	}
+}
+}
+
+
+a
+{
+	padding: 73%;
+
+	
+	
+}
+
+span
+{
+	background-color: lightgray;
+	padding: 4%;
+	
+
+
+}
+span:hover
+{
+	background-color: black;
+	opacity: 0.8;
+	
+}
+a
+{
+	font-family: sans-serif;
+	text-decoration: none;
+	color: blue;
+}
+a:hover
+{
+	color: white;
+}
+.span1
+{
+	margin-left: 5%;
+}
+
+.div1
+{
+	position: absolute;
+	top: 33%;
+}
+h3
+{
+	font-family: 'Architects Daughter', cursive;
+}
+footer
+{
+	background: black;
+	position: absolute;
+	top: 76%;
+	width: 99%;
+	height: 22%;
+}
+.info
+{
+	color: white;
+	margin-left: 1%;
+}
+
